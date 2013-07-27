@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79FF7E9517A36C1300339A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FF7E9417A36C1300339A23 /* Foundation.framework */; };
+		79FF7E9817A36C1300339A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FF7E9717A36C1300339A23 /* main.m */; };
+		79FF7E9C17A36C1300339A23 /* usbCheck.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79FF7E9B17A36C1300339A23 /* usbCheck.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79FF7E8F17A36C1300339A23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				79FF7E9C17A36C1300339A23 /* usbCheck.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79FF7E9117A36C1300339A23 /* usbCheck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = usbCheck; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FF7E9417A36C1300339A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79FF7E9717A36C1300339A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79FF7E9A17A36C1300339A23 /* usbCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "usbCheck-Prefix.pch"; sourceTree = "<group>"; };
+		79FF7E9B17A36C1300339A23 /* usbCheck.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = usbCheck.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FF7E8E17A36C1300339A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF7E9517A36C1300339A23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FF7E8817A36C1200339A23 = {
+			isa = PBXGroup;
+			children = (
+				79FF7E9617A36C1300339A23 /* usbCheck */,
+				79FF7E9317A36C1300339A23 /* Frameworks */,
+				79FF7E9217A36C1300339A23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79FF7E9217A36C1300339A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FF7E9117A36C1300339A23 /* usbCheck */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FF7E9317A36C1300339A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79FF7E9417A36C1300339A23 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79FF7E9617A36C1300339A23 /* usbCheck */ = {
+			isa = PBXGroup;
+			children = (
+				79FF7E9717A36C1300339A23 /* main.m */,
+				79FF7E9B17A36C1300339A23 /* usbCheck.1 */,
+				79FF7E9917A36C1300339A23 /* Supporting Files */,
+			);
+			path = usbCheck;
+			sourceTree = "<group>";
+		};
+		79FF7E9917A36C1300339A23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FF7E9A17A36C1300339A23 /* usbCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79FF7E9017A36C1300339A23 /* usbCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FF7E9F17A36C1300339A23 /* Build configuration list for PBXNativeTarget "usbCheck" */;
+			buildPhases = (
+				79FF7E8D17A36C1300339A23 /* Sources */,
+				79FF7E8E17A36C1300339A23 /* Frameworks */,
+				79FF7E8F17A36C1300339A23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = usbCheck;
+			productName = usbCheck;
+			productReference = 79FF7E9117A36C1300339A23 /* usbCheck */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FF7E8917A36C1300339A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Louis;
+			};
+			buildConfigurationList = 79FF7E8C17A36C1300339A23 /* Build configuration list for PBXProject "usbCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79FF7E8817A36C1200339A23;
+			productRefGroup = 79FF7E9217A36C1300339A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FF7E9017A36C1300339A23 /* usbCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FF7E8D17A36C1300339A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF7E9817A36C1300339A23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79FF7E9D17A36C1300339A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79FF7E9E17A36C1300339A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79FF7EA017A36C1300339A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "usbCheck/usbCheck-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79FF7EA117A36C1300339A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "usbCheck/usbCheck-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FF7E8C17A36C1300339A23 /* Build configuration list for PBXProject "usbCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FF7E9D17A36C1300339A23 /* Debug */,
+				79FF7E9E17A36C1300339A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FF7E9F17A36C1300339A23 /* Build configuration list for PBXNativeTarget "usbCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FF7EA017A36C1300339A23 /* Debug */,
+				79FF7EA117A36C1300339A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FF7E8917A36C1300339A23 /* Project object */;
+}
