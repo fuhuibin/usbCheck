@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793AE10317A36DDD00589F24 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793AE10217A36DDD00589F24 /* IOKit.framework */; };
+		793AE10617A36E8E00589F24 /* UartComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 793AE10517A36E8E00589F24 /* UartComm.m */; };
 		79FF7E9517A36C1300339A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FF7E9417A36C1300339A23 /* Foundation.framework */; };
 		79FF7E9817A36C1300339A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FF7E9717A36C1300339A23 /* main.m */; };
 		79FF7E9C17A36C1300339A23 /* usbCheck.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79FF7E9B17A36C1300339A23 /* usbCheck.1 */; };
@@ -26,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		793AE10217A36DDD00589F24 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		793AE10417A36E8E00589F24 /* UartComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UartComm.h; sourceTree = "<group>"; };
+		793AE10517A36E8E00589F24 /* UartComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UartComm.m; sourceTree = "<group>"; };
 		79FF7E9117A36C1300339A23 /* usbCheck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = usbCheck; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FF7E9417A36C1300339A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79FF7E9717A36C1300339A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793AE10317A36DDD00589F24 /* IOKit.framework in Frameworks */,
 				79FF7E9517A36C1300339A23 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +54,7 @@
 		79FF7E8817A36C1200339A23 = {
 			isa = PBXGroup;
 			children = (
+				793AE10217A36DDD00589F24 /* IOKit.framework */,
 				79FF7E9617A36C1300339A23 /* usbCheck */,
 				79FF7E9317A36C1300339A23 /* Frameworks */,
 				79FF7E9217A36C1300339A23 /* Products */,
@@ -73,6 +80,8 @@
 		79FF7E9617A36C1300339A23 /* usbCheck */ = {
 			isa = PBXGroup;
 			children = (
+				793AE10417A36E8E00589F24 /* UartComm.h */,
+				793AE10517A36E8E00589F24 /* UartComm.m */,
 				79FF7E9717A36C1300339A23 /* main.m */,
 				79FF7E9B17A36C1300339A23 /* usbCheck.1 */,
 				79FF7E9917A36C1300339A23 /* Supporting Files */,
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FF7E9817A36C1300339A23 /* main.m in Sources */,
+				793AE10617A36E8E00589F24 /* UartComm.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +160,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -172,7 +182,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -182,7 +192,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -198,7 +208,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -240,6 +250,7 @@
 				79FF7EA117A36C1300339A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
